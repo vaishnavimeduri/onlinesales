@@ -1,0 +1,12 @@
+.select {
+  color: rgb(142, 14, 14);
+  background-color: lightpink;
+  width: 180px;
+  height: 40px;
+}
+.option {
+  color: rgb(142, 14, 14);
+  background-color: lightpink;
+  width: 180px;
+  height: 30px;
+}
