@@ -1,12 +1,13 @@
 import React from "react";
 
 function Eleradio(props) {
+  // radio element
   return (
-    <div>
-      <h1>{props.radiolabelname}</h1>
+    <div type="radio" id={props.radiolabelname}>
+      <p>{props.radiolabelname + ":"}</p>
       {props.radiooptions.map((option) => {
         return (
-          <>
+          <div style={{ display: "flex", justifyContent: "center" }}>
             <input
               type="radio"
               id={option}
@@ -14,10 +15,9 @@ function Eleradio(props) {
               value={option}
             />
             <label htmlFor={option}>{option}</label>
-          </>
+          </div>
         );
       })}
-      <div className="rule"></div>
     </div>
   );
 }

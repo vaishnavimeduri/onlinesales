@@ -7,6 +7,7 @@ import Elecheckbox from "../Elecheckbox/Elecheckbox";
 import Eledropdown from "../Eledropdown/Eledropdown";
 
 function Formmaker(props) {
+  // Based on the value either input or checkbox or radio or textarea or dropdown components are returned
   return (
     <div className="form-maker">
       <div className="Formmaker" >

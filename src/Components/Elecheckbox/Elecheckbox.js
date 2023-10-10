@@ -1,12 +1,18 @@
-import React from 'react'
+import React from "react";
 
 function Elecheckbox(props) {
+  // checkbox element
   return (
-    <div>
+    <div type="checkbox" style={{ display: "flex", justifyContent: "center" }}>
       <label htmlFor={props.checkboxname}>{props.checkboxname}</label>
-      <input type="checkbox" id={props.checkboxname} name={props.checkboxname} value={props.checkboxname}/>
+      <input
+        type="checkbox"
+        id={props.checkboxname}
+        name={props.checkboxname}
+        value={props.checkboxname}
+      />
     </div>
-  )
+  );
 }
 
-export default Elecheckbox
+export default Elecheckbox;
